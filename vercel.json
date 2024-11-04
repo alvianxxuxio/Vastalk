@@ -8,6 +8,10 @@
   ],
   "routes": [
     {
+      "src": "/forgot-password",
+      "dest": "forgot-password"
+    },
+    {
       "src": "/(.*)",
       "dest": "index.js"
     }
