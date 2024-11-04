@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/forgot-password",
-      "dest": "forgot-password"
+      "dest": "forgot-password.html"
     },
     {
       "src": "/(.*)",
