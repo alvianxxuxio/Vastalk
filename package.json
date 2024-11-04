@@ -10,8 +10,8 @@
   "dependencies": {
     "next": "13.x",
     "react": "18.x",
-    "react-dom": "18.x"
-    "node": "20.x"
+    "react-dom": "18.x",
+    "node": "20.x",
     "@google/generative-ai": "^0.14.0",
     "axios": "^1.6.8",
     "cors": "^2.8.5",
