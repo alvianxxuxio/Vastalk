@@ -29,7 +29,7 @@
 
 
 <!-- Input file dengan gaya custom -->
-<label id="cst" for="profilePicture" class="custom-file-upload">Choose Profile picture</label>
+<label id="cst" for="profilePicture" class="custom-file-upload" style="width: 100%;">Choose Profile picture</label>
 <input type="file" id="profilePicture" accept="image/*" required onchange="previewFile()">
 
 <!-- Pratinjau gambar dan nama file -->
@@ -46,8 +46,8 @@
     <center><div class="sdjk" width="350" height="50" alt="lts"/></center>
     <h2>Login</h2>
     <input type="email" id="loginEmail" placeholder="Email" required>
-    <input type="password" id="loginPassword" placeholder="Password" required>
-    <a class="toggle-btn" href="forgot-password">Forgot password?</a>
+    <input type="password" id="loginPassword" placeholder="Password" required><br>
+    <a class="toggle-btn" href="forgot-password">Forgot password?</a><br>
     <button id="log" onclick="login()">Login</button>
     <p class="toggle-btn" onclick="toggleForm()">Don't have an account? Register</p>
 </div>
